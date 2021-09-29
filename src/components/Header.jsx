@@ -47,7 +47,7 @@ const Header = () => {
             />
           </a>
           contenidos <b style={{ marginLeft: "8px" }}>argentinos</b>
-          <ul id="list-redsocial">enlaceARedesSociales</ul>
+          <ul id="list-redsocial">{enlacesARedesSociales}</ul>
         </div>
 
         <ul>
