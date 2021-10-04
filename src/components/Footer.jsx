@@ -12,37 +12,35 @@ const PieDePagina = () => {
         </h6>
       </div>
       <div>
-        <nav>
-          <ul className="ImgFooterRUl">
-            <li>
-              <a href="/">
-                <img
-                  className="ImgPieDePagina"
-                  src="http://cine.ar/img/logo-cinear.svg"
-                  alt=""
-                />
-              </a>
-            </li>
-            <li>
-              <a href="/">
-                <img
-                  className="ImgPieDePagina"
-                  src="http://cine.ar/img/logo-arsat.svg"
-                  alt=""
-                />
-              </a>
-            </li>
-            <li>
-              <a href="/">
-                <img
-                  className="ImgPieDePagina"
-                  src="http://cine.ar/img/logo-incaa.svg"
-                  alt=""
-                />
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <ul className="ImgFooterRUl">
+          <li>
+            <a href="/">
+              <img
+                className="ImgPieDePagina"
+                src="http://cine.ar/img/logo-cinear.svg"
+                alt=""
+              />
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <img
+                className="ImgPieDePagina"
+                src="http://cine.ar/img/logo-arsat.svg"
+                alt=""
+              />
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <img
+                className="ImgPieDePagina"
+                src="http://cine.ar/img/logo-incaa.svg"
+                alt=""
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   );
